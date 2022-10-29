@@ -10,7 +10,8 @@ What has been implemented
 
 ### Variants
 Convert kelvin to Celcius and Fahrenheit
-def kelvin_to_celcius_fahrenheit(kelvin):
-  celcius = kelvin - 273.15
-  fahrenheit = celcius * (9 / 5) + 32
-  return int(celcius), int(fahrenheit)
+
+    def kelvin_to_celcius_fahrenheit(kelvin):
+       celcius = kelvin - 273.15
+       fahrenheit = celcius * (9 / 5) + 32
+       return int(celcius), int(fahrenheit)
